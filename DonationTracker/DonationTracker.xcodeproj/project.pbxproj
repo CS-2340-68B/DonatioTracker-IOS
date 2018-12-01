@@ -25,6 +25,7 @@
 		D90AEE1F21B2676300D75AF2 /* SearchOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90AEE1E21B2676300D75AF2 /* SearchOptions.swift */; };
 		D90AEE2121B2679900D75AF2 /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90AEE2021B2679900D75AF2 /* UserType.swift */; };
 		D96AA0FD21B317D400815D77 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA0FC21B317D400815D77 /* LoginViewController.swift */; };
+		D96AA0FF21B318C600815D77 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA0FE21B318C600815D77 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		D90AEE1E21B2676300D75AF2 /* SearchOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchOptions.swift; sourceTree = "<group>"; };
 		D90AEE2021B2679900D75AF2 /* UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
 		D96AA0FC21B317D400815D77 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D96AA0FE21B318C600815D77 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				D96AA0FC21B317D400815D77 /* LoginViewController.swift */,
+				D96AA0FE21B318C600815D77 /* RegisterViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				D90AEE1621B2661200D75AF2 /* Response.swift in Sources */,
 				D90AEE0E21B265A900D75AF2 /* Location.swift in Sources */,
 				D90AEE1821B2662000D75AF2 /* UserSearch.swift in Sources */,
+				D96AA0FF21B318C600815D77 /* RegisterViewController.swift in Sources */,
 				D90AEDF821B1D61100D75AF2 /* MasterViewController.swift in Sources */,
 				D90AEDF621B1D61100D75AF2 /* AppDelegate.swift in Sources */,
 				D90AEE1421B265F300D75AF2 /* Contact.swift in Sources */,

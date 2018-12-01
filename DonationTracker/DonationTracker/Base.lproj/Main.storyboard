@@ -87,7 +87,7 @@
         <!--RegisterScene-->
         <scene sceneID="cXR-EK-ajN">
             <objects>
-                <viewController title="RegisterScene" id="v1x-r9-bvF" sceneMemberID="viewController">
+                <viewController title="RegisterScene" id="v1x-r9-bvF" customClass="RegisterViewController" customModule="DonationTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LaD-zT-zWw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -180,6 +180,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iB5-aL-OzU">
                                                 <rect key="frame" x="0.0" y="0.0" width="57" height="30"/>
                                                 <state key="normal" title="Register"/>
+                                                <connections>
+                                                    <action selector="registerAction:" destination="v1x-r9-bvF" eventType="touchUpInside" id="Yok-e0-PIb"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgk-X7-leO">
                                                 <rect key="frame" x="137" y="0.0" width="48" height="30"/>
@@ -194,6 +197,12 @@
                         <viewLayoutGuide key="safeArea" id="egT-UL-Kcw"/>
                     </view>
                     <navigationItem key="navigationItem" id="gde-cH-R1V"/>
+                    <connections>
+                        <outlet property="password" destination="1d1-Ef-goS" id="e4u-aG-xCc"/>
+                        <outlet property="registerButton" destination="iB5-aL-OzU" id="AMX-5V-FIa"/>
+                        <outlet property="repeatPassword" destination="nGF-pv-ala" id="oHt-P3-IiC"/>
+                        <outlet property="username" destination="awb-Vb-DDU" id="QxM-0C-buB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oLU-po-GcE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
