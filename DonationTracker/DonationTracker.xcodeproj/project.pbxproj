@@ -29,6 +29,7 @@
 		D96AA10121B31B3A00815D77 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA10021B31B3A00815D77 /* LocationListViewController.swift */; };
 		D96AA10321B31B7500815D77 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA10221B31B7500815D77 /* SearchViewController.swift */; };
 		D96AA10521B31D3C00815D77 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA10421B31D3C00815D77 /* LocationDetailViewController.swift */; };
+		D96AA10721B335F500815D77 /* DonationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA10621B335F500815D77 /* DonationDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		D96AA10021B31B3A00815D77 /* LocationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListViewController.swift; sourceTree = "<group>"; };
 		D96AA10221B31B7500815D77 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		D96AA10421B31D3C00815D77 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
+		D96AA10621B335F500815D77 /* DonationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				D96AA10021B31B3A00815D77 /* LocationListViewController.swift */,
 				D96AA10221B31B7500815D77 /* SearchViewController.swift */,
 				D96AA10421B31D3C00815D77 /* LocationDetailViewController.swift */,
+				D96AA10621B335F500815D77 /* DonationDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				D96AA10521B31D3C00815D77 /* LocationDetailViewController.swift in Sources */,
 				D96AA10321B31B7500815D77 /* SearchViewController.swift in Sources */,
 				D96AA10121B31B3A00815D77 /* LocationListViewController.swift in Sources */,
+				D96AA10721B335F500815D77 /* DonationDetailViewController.swift in Sources */,
 				D90AEDF821B1D61100D75AF2 /* MasterViewController.swift in Sources */,
 				D90AEDF621B1D61100D75AF2 /* AppDelegate.swift in Sources */,
 				D90AEE1421B265F300D75AF2 /* Contact.swift in Sources */,

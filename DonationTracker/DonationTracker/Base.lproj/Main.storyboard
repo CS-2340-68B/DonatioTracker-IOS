@@ -559,7 +559,7 @@
         <!--DonatioDetailScene-->
         <scene sceneID="rSK-DX-fPV">
             <objects>
-                <viewController title="DonatioDetailScene" id="pxi-SR-CQG" sceneMemberID="viewController">
+                <viewController title="DonatioDetailScene" id="pxi-SR-CQG" customClass="DonationDetailViewController" customModule="DonationTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Zxq-st-tIM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -705,6 +705,16 @@
                         <viewLayoutGuide key="safeArea" id="Edg-vr-TqJ"/>
                     </view>
                     <size key="freeformSize" width="375" height="1000"/>
+                    <connections>
+                        <outlet property="category" destination="sG5-oa-KKv" id="0rW-X9-gDV"/>
+                        <outlet property="comment" destination="hKk-xh-iev" id="B3T-JZ-Re9"/>
+                        <outlet property="donationName" destination="nYJ-AN-IEB" id="lFY-KU-8Na"/>
+                        <outlet property="fullDescription" destination="FXW-PK-0Ui" id="g0C-zK-SW9"/>
+                        <outlet property="locationName" destination="cpP-3x-4fB" id="ppk-n0-Qak"/>
+                        <outlet property="shortDescription" destination="Tzg-dc-jkR" id="gVK-yi-ecX"/>
+                        <outlet property="time" destination="CP7-ID-CIS" id="wx2-FI-kjC"/>
+                        <outlet property="value" destination="28y-U3-AJJ" id="I3S-hQ-sIh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="me1-Bg-hAB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
