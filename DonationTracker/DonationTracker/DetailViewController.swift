@@ -39,7 +39,9 @@ class DetailViewController: UIViewController {
             configureView()
         }
     }
-
-
+    
+    @IBOutlet weak var Login: UIButton!
+    @IBOutlet weak var Register: UIButton!
+    
 }
 
