@@ -291,7 +291,7 @@
         <!--SearchHistoryScene-->
         <scene sceneID="drO-yG-Hj8">
             <objects>
-                <viewController title="SearchHistoryScene" id="0QJ-k0-HhN" sceneMemberID="viewController">
+                <viewController title="SearchHistoryScene" id="0QJ-k0-HhN" customClass="SearchHistoryViewController" customModule="DonationTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lvw-Gi-MHv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -522,7 +522,7 @@
         <!--LocationDonationListScene-->
         <scene sceneID="E0x-qy-D0R">
             <objects>
-                <viewController title="LocationDonationListScene" id="UvK-yL-g0L" sceneMemberID="viewController">
+                <viewController title="LocationDonationListScene" id="UvK-yL-g0L" customClass="DonationListViewController" customModule="DonationTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="R9s-JK-5Qn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -834,7 +834,7 @@
         <!--MapScene-->
         <scene sceneID="D5v-3u-ydG">
             <objects>
-                <viewController title="MapScene" id="8cO-Lv-Cpg" sceneMemberID="viewController">
+                <viewController title="MapScene" id="8cO-Lv-Cpg" customClass="MapViewController" customModule="DonationTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yv4-Xx-yyJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
