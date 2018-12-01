@@ -211,7 +211,7 @@
         <!--SearchScene-->
         <scene sceneID="JLn-vI-1xe">
             <objects>
-                <viewController title="SearchScene" id="8l6-W8-pYg" sceneMemberID="viewController">
+                <viewController title="SearchScene" id="8l6-W8-pYg" customClass="SearchViewController" customModule="DonationTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mkZ-W0-fo2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -250,6 +250,9 @@
                                 <rect key="frame" x="91" y="217" width="48" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Search"/>
+                                <connections>
+                                    <action selector="searchAction:forEvent:" destination="8l6-W8-pYg" eventType="touchUpInside" id="Pve-yb-4ad"/>
+                                </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BG9-8r-bkN">
                                 <rect key="frame" x="16" y="269" width="343" height="378"/>
@@ -274,6 +277,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="QWU-Yg-bba"/>
                     </view>
+                    <connections>
+                        <outlet property="categorySwitch" destination="Pu0-FW-rZW" id="Sk0-Vk-f7M"/>
+                        <outlet property="itemSwitch" destination="YRw-jE-q7G" id="he6-eL-vhH"/>
+                        <outlet property="searchButton" destination="2Y8-cV-pLl" id="CBJ-YH-NJK"/>
+                        <outlet property="searchTextArea" destination="wFs-Yu-CwY" id="GNE-cR-qBY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yZ5-pJ-jRa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -633,7 +642,7 @@
         <!--LocationListScene-->
         <scene sceneID="f3u-gS-Xt9">
             <objects>
-                <viewController title="LocationListScene" id="Omg-Pw-Urd" sceneMemberID="viewController">
+                <viewController title="LocationListScene" id="Omg-Pw-Urd" customClass="LocationListViewController" customModule="DonationTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fd7-ea-D1c">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
