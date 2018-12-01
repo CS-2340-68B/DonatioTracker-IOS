@@ -21,6 +21,7 @@
 		D90AEE1621B2661200D75AF2 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90AEE1521B2661200D75AF2 /* Response.swift */; };
 		D90AEE1821B2662000D75AF2 /* UserSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90AEE1721B2662000D75AF2 /* UserSearch.swift */; };
 		D90AEE1B21B2668500D75AF2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90AEE1A21B2668500D75AF2 /* Category.swift */; };
+		D90AEE1D21B2671100D75AF2 /* DonationPlaceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90AEE1C21B2671100D75AF2 /* DonationPlaceType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		D90AEE1521B2661200D75AF2 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		D90AEE1721B2662000D75AF2 /* UserSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearch.swift; sourceTree = "<group>"; };
 		D90AEE1A21B2668500D75AF2 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D90AEE1C21B2671100D75AF2 /* DonationPlaceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationPlaceType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				D90AEE1A21B2668500D75AF2 /* Category.swift */,
+				D90AEE1C21B2671100D75AF2 /* DonationPlaceType.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D90AEE1021B265C500D75AF2 /* DonationDetail.swift in Sources */,
+				D90AEE1D21B2671100D75AF2 /* DonationPlaceType.swift in Sources */,
 				D90AEE0C21B2658900D75AF2 /* User.swift in Sources */,
 				D90AEE1221B265E200D75AF2 /* Status.swift in Sources */,
 				D90AEDFA21B1D61100D75AF2 /* DetailViewController.swift in Sources */,
