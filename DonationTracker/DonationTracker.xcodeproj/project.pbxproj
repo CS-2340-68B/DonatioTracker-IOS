@@ -28,6 +28,11 @@
 		D96AA0FF21B318C600815D77 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA0FE21B318C600815D77 /* RegisterViewController.swift */; };
 		D96AA10121B31B3A00815D77 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA10021B31B3A00815D77 /* LocationListViewController.swift */; };
 		D96AA10321B31B7500815D77 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA10221B31B7500815D77 /* SearchViewController.swift */; };
+		D96AA10521B31D3C00815D77 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA10421B31D3C00815D77 /* LocationDetailViewController.swift */; };
+		D96AA10721B335F500815D77 /* DonationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA10621B335F500815D77 /* DonationDetailViewController.swift */; };
+		D96AA10921B3371700815D77 /* DonationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA10821B3371700815D77 /* DonationListViewController.swift */; };
+		D96AA10B21B3374300815D77 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA10A21B3374300815D77 /* MapViewController.swift */; };
+		D96AA10D21B3377500815D77 /* SearchHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA10C21B3377500815D77 /* SearchHistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +59,11 @@
 		D96AA0FE21B318C600815D77 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		D96AA10021B31B3A00815D77 /* LocationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListViewController.swift; sourceTree = "<group>"; };
 		D96AA10221B31B7500815D77 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D96AA10421B31D3C00815D77 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
+		D96AA10621B335F500815D77 /* DonationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationDetailViewController.swift; sourceTree = "<group>"; };
+		D96AA10821B3371700815D77 /* DonationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationListViewController.swift; sourceTree = "<group>"; };
+		D96AA10A21B3374300815D77 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D96AA10C21B3377500815D77 /* SearchHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				D96AA0FE21B318C600815D77 /* RegisterViewController.swift */,
 				D96AA10021B31B3A00815D77 /* LocationListViewController.swift */,
 				D96AA10221B31B7500815D77 /* SearchViewController.swift */,
+				D96AA10421B31D3C00815D77 /* LocationDetailViewController.swift */,
+				D96AA10621B335F500815D77 /* DonationDetailViewController.swift */,
+				D96AA10821B3371700815D77 /* DonationListViewController.swift */,
+				D96AA10A21B3374300815D77 /* MapViewController.swift */,
+				D96AA10C21B3377500815D77 /* SearchHistoryViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -211,6 +226,7 @@
 				D90AEE1D21B2671100D75AF2 /* DonationPlaceType.swift in Sources */,
 				D90AEE2121B2679900D75AF2 /* UserType.swift in Sources */,
 				D96AA0FD21B317D400815D77 /* LoginViewController.swift in Sources */,
+				D96AA10D21B3377500815D77 /* SearchHistoryViewController.swift in Sources */,
 				D90AEE0C21B2658900D75AF2 /* User.swift in Sources */,
 				D90AEE1F21B2676300D75AF2 /* SearchOptions.swift in Sources */,
 				D90AEE1221B265E200D75AF2 /* Status.swift in Sources */,
@@ -218,9 +234,13 @@
 				D90AEE1621B2661200D75AF2 /* Response.swift in Sources */,
 				D90AEE0E21B265A900D75AF2 /* Location.swift in Sources */,
 				D90AEE1821B2662000D75AF2 /* UserSearch.swift in Sources */,
+				D96AA10B21B3374300815D77 /* MapViewController.swift in Sources */,
+				D96AA10921B3371700815D77 /* DonationListViewController.swift in Sources */,
 				D96AA0FF21B318C600815D77 /* RegisterViewController.swift in Sources */,
+				D96AA10521B31D3C00815D77 /* LocationDetailViewController.swift in Sources */,
 				D96AA10321B31B7500815D77 /* SearchViewController.swift in Sources */,
 				D96AA10121B31B3A00815D77 /* LocationListViewController.swift in Sources */,
+				D96AA10721B335F500815D77 /* DonationDetailViewController.swift in Sources */,
 				D90AEDF821B1D61100D75AF2 /* MasterViewController.swift in Sources */,
 				D90AEDF621B1D61100D75AF2 /* AppDelegate.swift in Sources */,
 				D90AEE1421B265F300D75AF2 /* Contact.swift in Sources */,
