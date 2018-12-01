@@ -10,14 +10,18 @@ import Foundation
 
 class User {
     private var userID: String?
-    private var userName: String
-    private var password: String
-    private var failedAttemps: Int
+    private var userName: String?
+    private var password: String?
+    private var failedAttemps: Int?
     private var lastFailed: Int?
     private var type: UserType?
     private var isLock: Bool?
     private var contact: Contact?
-    private var assignedLocation: String
+    private var assignedLocation: String?
+    private var userKey: String?
+    
+    init() {}
+    
     
     init(userName: String, password: String, failedAttemps: Int, type: UserType, assignedLocation: String) {
         self.userName = userName
