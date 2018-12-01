@@ -28,6 +28,7 @@
 		D96AA0FF21B318C600815D77 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA0FE21B318C600815D77 /* RegisterViewController.swift */; };
 		D96AA10121B31B3A00815D77 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA10021B31B3A00815D77 /* LocationListViewController.swift */; };
 		D96AA10321B31B7500815D77 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA10221B31B7500815D77 /* SearchViewController.swift */; };
+		D96AA10521B31D3C00815D77 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96AA10421B31D3C00815D77 /* LocationDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		D96AA0FE21B318C600815D77 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		D96AA10021B31B3A00815D77 /* LocationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListViewController.swift; sourceTree = "<group>"; };
 		D96AA10221B31B7500815D77 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D96AA10421B31D3C00815D77 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D96AA0FE21B318C600815D77 /* RegisterViewController.swift */,
 				D96AA10021B31B3A00815D77 /* LocationListViewController.swift */,
 				D96AA10221B31B7500815D77 /* SearchViewController.swift */,
+				D96AA10421B31D3C00815D77 /* LocationDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				D90AEE0E21B265A900D75AF2 /* Location.swift in Sources */,
 				D90AEE1821B2662000D75AF2 /* UserSearch.swift in Sources */,
 				D96AA0FF21B318C600815D77 /* RegisterViewController.swift in Sources */,
+				D96AA10521B31D3C00815D77 /* LocationDetailViewController.swift in Sources */,
 				D96AA10321B31B7500815D77 /* SearchViewController.swift in Sources */,
 				D96AA10121B31B3A00815D77 /* LocationListViewController.swift in Sources */,
 				D90AEDF821B1D61100D75AF2 /* MasterViewController.swift in Sources */,
